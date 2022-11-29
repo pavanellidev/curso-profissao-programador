@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.bloco {
+   width: 100px;
+   height: 100px;
+   background-color: red;
+   animation: animation;
+   animation-duration: 2s;
+}
+
+@keyframes animation {
+   from {
+      border-radius: 10px;
+   }
+   
+   to {
+      border-radius: 50%;
+   }
+}

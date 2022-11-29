@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.grid {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   width: 1000px;
+   height: 410px;
+   background-color: black;
+}
+
+.bloco {
+   width: 100px;
+   height: 100px;
+   background-color: white;
+   border: 1px solid red;
+}
